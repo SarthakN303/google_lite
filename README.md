@@ -1,62 +1,61 @@
-- Google Clone React App
+# React Google Clone
 
-This repository contains a Google Clone React App built using Tailwind CSS and powered by the Rapid API for search functionality.
+A Google Search Clone App built with React.js, Tailwind CSS, and powered by the Google Search API via Rapid API.
 
-- Table of Contents
+## Features
 
-* Overview
-* Features
-* Installation
-* Usage
-* Technologies Used
-* API Key
-* Contributing
-* License
-* Overview
-* This Google Clone React App aims to replicate the basic functionality of Google's search page. It utilizes React for the front end, Tailwind CSS for styling, and the Rapid API for fetching search results.
+- Perform Google-like searches with real-time results
+- Responsive design for optimal viewing on various devices
+- Utilizes the Google Search API to fetch search results
 
-- Features
+## Technologies Used
 
-* Search Bar: Users can input their search queries in the search bar.
-* Search Results: The app displays search results obtained from the Google Search API.
-  Responsive Design: The app is designed to work seamlessly across various devices.
-  Installation
-  Clone the repository:
+- React.js
+- Tailwind CSS
+- Rapid API (Google Search API)
 
-bash
-Copy code
-git clone https://github.com/SarthakN303/google_lite.git
-Change into the project directory:
+## Prerequisites
 
-bash
-Copy code
-cd google-clone-react
-Install dependencies:
+Before you begin, ensure you have the following installed:
 
-bash
-Copy code
-npm install
-Usage
-Obtain an API key from the Rapid API website.
+- Node.js and npm - [Download and install Node.js](https://nodejs.org/)
 
-Create a .env file in the root directory and add your API key:
+## Getting Started
 
-env
-Copy code
-VITE_API_KEY=your-api-key-here
-Start the development server:
+1. Clone the repository:
 
-bash
-Copy code
-npm start
-Open your browser and visit http://localhost:5173/ to view the app.
+   ```bash
+   git clone https://github.com/your-username/google-clone-react-tailwind.git
+   ```
 
-Technologies Used
-React
-Tailwind CSS
-Rapid API
-API Key
-To use the Rapid API for fetching search results, you need to obtain an API key. Visit the Rapid API website to sign up and generate your API key.
+2. Navigate to the project directory:
 
-Contributing
-Feel free to contribute to the project. Please follow the contribution guidelines.
+   ```bash
+   cd google-clone-react-tailwind
+   ```
+
+3. Install dependencies using npm or yarn:
+
+   ```bash
+   npm install || yarn
+   ```
+
+4. Create a .env file in the root of your project and add your Rapid API key:
+
+   ```bash
+   VITE_API_KEY=YOUR_RAPID_API_KEY
+   ```
+
+5. Start the development server:
+
+   ```bash
+   npm start || yarn dev
+   ```
+
+6. Open your browser and visit http://localhost:3000 to view the app.
+
+## Acknowledgments
+
+- React.js
+- Tailwind CSS
+- Rapid API (Google Search API)
